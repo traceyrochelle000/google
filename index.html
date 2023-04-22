@@ -1,0 +1,9 @@
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const google = params.get('google');
+
+    if (google) {
+    window.location.href = google;
+    }
+
+</script>
